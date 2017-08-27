@@ -1,8 +1,8 @@
 package com.devakee.array;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+//import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.testng.annotations.Test;
 
 public class Patter1 
 {
@@ -25,12 +25,12 @@ public class Patter1
 				}
 				}
 			}
-			for(int k=0;k<words.length;k++)		//Displaying the String without duplicate words	
+			for(String name : words)		//Displaying the String without duplicate words	
 			{
-				//if(words[k]!=null)
-				//{
-					System.out.println(words[k]);
-				//}
+				if(name!=null)
+				{
+					System.out.println(name);
+				}
 				
 		     }  
 		
